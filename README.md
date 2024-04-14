@@ -27,7 +27,7 @@ Available endpoints:
 ## Getting Started
 
 ### Run the app 
-Run the development server:
+Run `yarn` to install dependencies and start development server:
 
 ```bash
 npm run dev
