@@ -45,8 +45,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ### Prepare the content
 
-1. First, download [BigBuckBunny.mp4](http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4) and place it within the `/public` folder.
-2. Then, depending on which endpoint you would like to test, do the following:
+1. First, create a `public` folder in the root repository.
+2. Then, download [BigBuckBunny.mp4](http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4) and place it within the `/public` folder.
+3. Depending on which endpoint you would like to test, do the following:
 
 #### /normal
 Nothing to do here. You should be able to watch the video already.
