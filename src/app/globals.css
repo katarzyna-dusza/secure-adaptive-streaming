@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: background-start-rgb;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+h1 {
+  margin: 10px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+select {
+  margin-left: 8px;
+  background: background-start-rgb;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+select:focus-visible {
+  outline: none;
+}
+
+.bitrate-header {
+  font-size: 0.8em;
+  margin: 0 10px;
+}
+
+.bits {
+  margin-left: 10px;
+  margin-bottom: 5px; 
+}
+
+.single-bit {
+  background-color: black;
+  height: 15px;
+  width: 1px;
+  margin-right: 1px;
+}
+
+.single-bit-empty {
+  height: 15px;
+  width: 1px;
+  margin-right: 1px;
+}
+
+.endpoints-header {
+  text-align: center;
+  width: 30%;
+}
+
+.endpoints-list {
+  width: 70%;
+}
+
+.endpoints-list-small {
+  width: 70%;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.endpoints-list-small > li {
+  margin-left: 10px;
+}
+
+.endpoint {
+  font-weight: 500;
+  color: blue;
+}
+
+.endpoint-explanation {
+  font-weight: 200;
+}
