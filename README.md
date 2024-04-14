@@ -4,7 +4,7 @@ This repository is a web player application that:
 - implements MSE (Media Source Extensions) API to play fragmented/segmented content,
 - implements adaptive bitrate (ABR),
 - implements EME (Encrypted Media Extensions) API to derypt an encrypted content, 
-- plays content using HTMLMediaElement `src` field.
+- plays content using HTMLMediaElement `src` attribute.
 
 It also provides instructions to create a fragmented content, adaptive bitrate content, and encrypted content.
 
