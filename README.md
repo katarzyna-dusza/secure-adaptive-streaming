@@ -1,4 +1,4 @@
-# MSE-EME-ABR-DASH
+# Secure adaptive streaming (MSE, EME, ABR, DASH)
 This repository is a web player application that:
 - parses DASH manifest,
 - implements MSE (Media Source Extensions) API to play fragmented/segmented content,
