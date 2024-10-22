@@ -17,7 +17,8 @@ Available endpoints:
 
 ## Prerequisites
 1. [bento4](https://www.bento4.com/) - a tool that allows you to fragment the mp4 file, encrypt it and create DASH manifest.
-2. [ffmpeg](https://ffmpeg.org/) - a tool that allow you to manipulate the mp4 file, change codecs, bitrates, etc. 
+2. [ffmpeg](https://ffmpeg.org/) - a tool that allow you to manipulate the mp4 file, change codecs, bitrates, etc.
+3. Chrome browser.
 
 ### Optional
 1. [mediainfo](https://mediaarea.net/en/MediaInfo/Download) - a tool that allows you to see details of a given mp4 file, i.e. duration, codecs, bitrate, etc.
