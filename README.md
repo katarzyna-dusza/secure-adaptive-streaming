@@ -115,6 +115,8 @@ cd public && mkdir output-encrypted && cd output-encrypted
 ```
 4. Create DASH manifest and encrypted the content with a `$KEY`:
 ```
+KEY="90351951686b5e1ba222439ecec1f12a:0a237b0752cbf1a827e2fecfb87479a2"
+
 mp4dash --widevine-header provider:widevine_test#content_id:2a --encryption-key $KEY ../BigBuckBunny-fragmented.mp4
 ```
 
